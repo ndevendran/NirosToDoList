@@ -1,7 +1,6 @@
 db.sqlite3
 geckodriver.log
 virtualenv
-Pipfile.lock
 __pycache__
 *.pyc
 Pipfile.lock
