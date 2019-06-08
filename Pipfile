@@ -9,6 +9,9 @@ verify_ssl = true
 selenium = "*"
 django = "*"
 gunicorn = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
+dj-database-url = "*"
 
 [requires]
 python_version = "3.7"
