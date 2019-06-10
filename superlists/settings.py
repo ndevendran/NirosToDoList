@@ -36,7 +36,7 @@ if 'DJANGO_DEBUG_FALSE' in os.environ:
 else:
     DEBUG = True
     SECRET_KEY = 'h-%g3x8mst01(+#jm&d^il!2u2f6mjtrdi$d@4n#bk9i=8b5)e'
-    ALLOWED_HOSTS = ['0.0.0.0','niros-to-do-list.herokuapp.com']
+    ALLOWED_HOSTS = ['0.0.0.0','niros-to-do-list.herokuapp.com', 'localhost']
 
 
 
