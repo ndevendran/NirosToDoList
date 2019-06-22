@@ -13,9 +13,9 @@ class NewVisitorTest(FunctionalTest):
     def test_can_start_a_list_for_one_user(self):
         # Edith has heard about a cool new online to-do app.
         # She goes to check out its homepage
+        # and accidentally tries to submit an empty list page
         self.browser.get(self.live_server_url)
-        self.browser.set_window_size(1024,768)
-
+        self.get_item_input_box().send_keys(Keys.ENTER)
 
         # She is invited to enter a to-do item straight away
         inputbox = self.get_item_input_box()
